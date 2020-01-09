@@ -22,10 +22,10 @@ html {
     width: 100;
     flex-shrink: 0;
 }
-# slider-control-1:checked ~ .slider-list .slider-item:nth-child(1)
-# slider-control-2:checked ~ .slider-list .slider-item:nth-child(2) 
-    # slider-control-3:checked ~ .slider-list .slider-item:nth-child(3)
-    # slider-control-4:checked ~ .slider-list .slider-item:nth-child(4) {
+ slider-control-1:checked ~ .slider-list .slider-item:nth-child(1)
+ slider-control-2:checked ~ .slider-list .slider-item:nth-child(2) 
+ slider-control-3:checked ~ .slider-list .slider-item:nth-child(3)
+ slider-control-4:checked ~ .slider-list .slider-item:nth-child(4) {
     display: block;
 }
 
