@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+    box-shadow: 0 0 0 1px red;
+}
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+.slider {
+    max-width: 900px;
+    margin: 30px auto;
+}
+.slider-list {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+.slider-item {
+    display: none;
+    width: 100;
+    flex-shrink: 0;
+}
+# slider-control-1:checked ~ .slider-list .slider-item:nth-child(1)
+# slider-control-2:checked ~ .slider-list .slider-item:nth-child(2) 
+    # slider-control-3:checked ~ .slider-list .slider-item:nth-child(3)
+    # slider-control-4:checked ~ .slider-list .slider-item:nth-child(4) {
+    display: block;
+}
+
+.slider-img {
+    max-width: 100px;
+    height: auto ;
+vertical-align: middle;
+}
+
+p{
+    color: blue;
+}
